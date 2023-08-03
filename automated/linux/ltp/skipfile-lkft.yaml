@@ -247,7 +247,15 @@ skiplist:
     url: https://projects.linaro.org/browse/KV-171
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
