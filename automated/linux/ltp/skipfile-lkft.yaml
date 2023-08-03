@@ -24,7 +24,7 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=3719
     environments: all
     boards:
-      - all 
+      - all
     branches: all
     tests:
       - fork13
@@ -36,7 +36,7 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=2355
     environments: all
     boards:
-      - all 
+      - all
     branches: all
     tests:
       - msgctl10
@@ -50,7 +50,7 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=3303
     environments: all
     boards:
-      - all 
+      - all
     branches:
       - 4.4
       - 4.9
@@ -104,7 +104,15 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=3338
     environments: all
     boards:
-      - all 
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches: all
     tests:
       - pth_str01
@@ -129,7 +137,16 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=3720
     environments:
       - production
-    boards: all
+    boards:
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches: all
     tests:
       - gf01
@@ -142,19 +159,28 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=3777
     environments: all
     boards:
-      - all 
+      - all
     branches: all
     tests:
       - hackbench01
       - hackbench02
 
   - reason: >
-      LKFT: linux-next: x86: LTP sendfile09 and sendfile09_64 failed: errno=EFBIG(27): File too large
+      LKFT: linux-next: x86: LTP sendfile09 and sendfile09_64 failed: errno=EFBIG(27):
+      File too large
       Test creates more than 3GB file which is time consuming so skipping.
     url: https://bugs.linaro.org/show_bug.cgi?id=3234
     environments: all
     boards:
-      - all 
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
@@ -181,7 +207,15 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=4023
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
@@ -193,7 +227,15 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=4273
     environments: all
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
@@ -206,7 +248,15 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=4272
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
@@ -217,7 +267,15 @@ skiplist:
     url: https://projects.linaro.org/browse/KV-171
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
@@ -238,7 +296,15 @@ skiplist:
     url: https://projects.linaro.org/browse/KV-171
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
@@ -280,7 +346,15 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=5722
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
@@ -292,7 +366,15 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=5792
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
