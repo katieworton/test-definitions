@@ -104,7 +104,15 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=3338
     environments: all
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches: all
     tests:
       - pth_str01
@@ -239,7 +247,15 @@ skiplist:
     url: https://projects.linaro.org/browse/KV-171
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
@@ -281,7 +297,15 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=5722
     environments: production
     boards:
-      - all
+      - qemu_arm64
+      - qemu-armv7
+      - qemu_arm
+      - qemu-x86
+      - qemu_x86
+      - qemu-i386
+      - qemu_i386
+      - i386
+      - juno-r2
     branches:
       - all
     tests:
