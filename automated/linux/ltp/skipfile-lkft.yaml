@@ -59,7 +59,26 @@ skiplist:
       LTP: msgctl10 fork failed
     url: https://bugs.linaro.org/show_bug.cgi?id=2355
     environments: all
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches: all
     tests:
       - msgctl10
@@ -125,7 +144,26 @@ skiplist:
       x86: ltp sched tests hang due to NFS not responding
     url: https://bugs.linaro.org/show_bug.cgi?id=3338
     environments: all
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches: all
     tests:
       - pth_str01
@@ -139,7 +177,26 @@ skiplist:
     url: https://bugs.linaro.org/show_bug.cgi?id=3382
     environments:
       - production
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches: all
     tests:
       - perf_event_open02
@@ -174,7 +231,26 @@ skiplist:
       Test creates more than 3GB file which is time consuming so skipping.
     url: https://bugs.linaro.org/show_bug.cgi?id=3234
     environments: all
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches:
       - all
     tests:
@@ -200,7 +276,26 @@ skiplist:
       memory (specially ones having short memory)
     url: https://bugs.linaro.org/show_bug.cgi?id=4023
     environments: production
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches:
       - all
     tests:
@@ -211,7 +306,26 @@ skiplist:
       intermittent failure
     url: https://bugs.linaro.org/show_bug.cgi?id=4273
     environments: all
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches:
       - all
     tests:
@@ -223,7 +337,26 @@ skiplist:
       Board doesn't have enough memory to run the test (1GB)
     url: https://bugs.linaro.org/show_bug.cgi?id=4272
     environments: production
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches:
       - all
     tests:
@@ -233,7 +366,26 @@ skiplist:
       skip long running LTP dio tests on all devices
     url: https://projects.linaro.org/browse/KV-171
     environments: production
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches:
       - all
     tests:
@@ -253,7 +405,26 @@ skiplist:
       skip long running LTP dio tests on all devices
     url: https://projects.linaro.org/browse/KV-171
     environments: production
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches:
       - all
     tests:
@@ -292,7 +463,26 @@ skiplist:
       LTP tracing test case ftrace_stress_test.sh crashing on all devices.
     url: https://bugs.linaro.org/show_bug.cgi?id=5722
     environments: production
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches:
       - all
     tests:
@@ -303,7 +493,26 @@ skiplist:
       which need full ping commmand in OE rootfs.
     url: https://bugs.linaro.org/show_bug.cgi?id=5792
     environments: production
-    boards: *all_boards
+    boards:
+      - bcm2711-rpi-4-b
+      - dragonboard-410c
+      - dragonboard-845c
+      - e850-96
+      - hi6220-hikey-r2
+      - juno-r2
+      - qcom-qdf2400
+      - qrb5165-rb5
+      - x15
+      - x86
+      - qemu_arm
+      - qemu_arm64
+      - qemu_x86_64
+      - qemu_i386
+      - qemu-armv7
+      - qemu-x86_64
+      - qemu-i386
+      - fvp-aemva
+
     branches:
       - all
     tests:
