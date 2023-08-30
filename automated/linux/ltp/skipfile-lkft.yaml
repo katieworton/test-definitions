@@ -96,7 +96,6 @@ skiplist:
       - qemu_i386
       - qemu-armv7
       - qemu-arm64
-      - qemu-x86_64
       - qemu-i386
       - fvp-aemva
 
@@ -240,7 +239,6 @@ skiplist:
       - qemu_arm64
       - qemu_x86_64
       - qemu_i386
-      - qemu-armv7
       - qemu-arm64
       - qemu-x86_64
       - qemu-i386
@@ -274,9 +272,7 @@ skiplist:
       - qemu_arm64
       - qemu_x86_64
       - qemu_i386
-      - qemu-armv7
       - qemu-arm64
-      - qemu-x86_64
       - qemu-i386
       - fvp-aemva
 
@@ -369,10 +365,6 @@ skiplist:
       - qemu_arm64
       - qemu_x86_64
       - qemu_i386
-      - qemu-armv7
-      - qemu-arm64
-      - qemu-x86_64
-      - qemu-i386
       - fvp-aemva
 
     branches:
@@ -415,9 +407,7 @@ skiplist:
       - qemu_arm64
       - qemu_x86_64
       - qemu_i386
-      - qemu-armv7
       - qemu-arm64
-      - qemu-x86_64
       - qemu-i386
       - fvp-aemva
 
@@ -448,7 +438,6 @@ skiplist:
       - qemu_i386
       - qemu-armv7
       - qemu-arm64
-      - qemu-x86_64
       - qemu-i386
       - fvp-aemva
 
@@ -508,8 +497,6 @@ skiplist:
       - qemu_arm64
       - qemu_x86_64
       - qemu_i386
-      - qemu-armv7
-      - qemu-arm64
       - qemu-x86_64
       - qemu-i386
       - fvp-aemva
@@ -550,7 +537,6 @@ skiplist:
       - qemu_i386
       - qemu-armv7
       - qemu-arm64
-      - qemu-x86_64
       - qemu-i386
       - fvp-aemva
 
@@ -649,7 +635,6 @@ skiplist:
       - qemu_i386
       - qemu-armv7
       - qemu-arm64
-      - qemu-x86_64
       - qemu-i386
       - fvp-aemva
 
@@ -678,9 +663,6 @@ skiplist:
       - qemu_arm64
       - qemu_x86_64
       - qemu_i386
-      - qemu-armv7
-      - qemu-arm64
-      - qemu-x86_64
       - qemu-i386
       - fvp-aemva
 
