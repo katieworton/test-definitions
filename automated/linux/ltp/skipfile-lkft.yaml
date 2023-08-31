@@ -418,7 +418,6 @@ skiplist:
       - qemu-armv7
       - qemu-arm64
       - qemu-x86_64
-      - qemu-i386
       - fvp-aemva
 
     branches:
